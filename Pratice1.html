@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputPhysical;
+    let inputChemistry;
+    let inputBiological;
+
+    inputPhysical = prompt("nhập điểm môn vật lý: ");
+    inputChemistry = prompt("nhập điểm môn hóa học: ");
+    inputBiological = prompt("nhập điểm môn sinh học: ");
+
+    let A = parseInt(inputPhysical);
+    let B = parseInt(inputChemistry);
+    let C = parseInt(inputBiological);
+
+    let GPA = (A+B+C)/3;
+    let total = A+B+C;
+    document.write("điểm trung bình 3 môn là: " + GPA + "<br>");
+    document.write("tổng điểm 3 môn là: " + total);
+</script>
+</body>
+</html>
